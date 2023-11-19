@@ -1,0 +1,64 @@
+  units:
+    kx: 5.5
+    ky: 5.5
+    px: kx + 4.5
+    py: ky + 4.5
+  points:
+    zones:
+      matrix:
+        key:
+          padding: 1px
+          spread: 1px
+        columns:
+          pinky:
+            # rows.home.skip: true
+          ring:
+            key:
+              stagger: 0 #5
+          middle:
+          index:
+          inner:
+        rows:
+          mod:
+          bottom:
+          home:
+          top:
+    rotate: -10
+    mirror:
+      ref: matrix_inner_home
+      distance: 19
+  outlines:
+    raw:
+      - what: rectangle
+        where: true
+        size: [kx, ky]
+    keys:
+      - what: rectangle
+        where: true
+        size: [kx-0.5,ky-0.5]
+    board:
+      - what: polygon
+        operation: stack
+        points:
+          - ref: matrix_pinky_top
+            shift: [-0.5px,0.5py]
+          #- ref: matrix_ring_top
+          #  shift: [0.5px,0.5py]
+          #- ref: mirror_matrix_ring_top
+          #  shift: [0.5px,0.5py]
+          - ref: mirror_matrix_pinky_top
+            shift: [-0.5px,0.5py]
+          - ref: mirror_matrix_pinky_mod
+            shift: [-0.5px,-0.5py]
+          - ref: mirror_matrix_inner_mod
+            shift: [0.5px,-0.5py]
+          - ref: matrix_inner_mod
+            shift: [0.5px,-0.5py]
+          - ref: matrix_pinky_mod
+            shift: [-0.5px,-0.5py]
+        fillet: 3
+    # Combination preview showing outline and keys.
+    combo:
+      - name: board
+      - operation: subtract
+        name: keys
