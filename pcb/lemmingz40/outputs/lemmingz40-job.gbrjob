@@ -5,17 +5,17 @@
       "Application": "Pcbnew",
       "Version": "7.0.8"
     },
-    "CreationDate": "2023-10-14T21:27:48-05:00"
+    "CreationDate": "2023-11-25T12:38:12-06:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "buinchiez40",
-      "GUID": "6275696e-6368-4696-957a-34302e6b6963",
+      "Name": "lemmingz40",
+      "GUID": "6c656d6d-696e-4677-9a34-302e6b696361",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 120.1,
-      "Y": 40.1
+      "X": 115.4144,
+      "Y": 48.2081
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,52 +27,52 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.25
+      "MinLineWidth": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "buinchiez40-F_Cu.gbr",
+      "Path": "lemmingz40-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "buinchiez40-B_Cu.gbr",
+      "Path": "lemmingz40-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "buinchiez40-F_Paste.gbr",
+      "Path": "lemmingz40-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "buinchiez40-B_Paste.gbr",
+      "Path": "lemmingz40-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "buinchiez40-F_Silkscreen.gbr",
+      "Path": "lemmingz40-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "buinchiez40-B_Silkscreen.gbr",
+      "Path": "lemmingz40-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "buinchiez40-F_Mask.gbr",
+      "Path": "lemmingz40-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "buinchiez40-B_Mask.gbr",
+      "Path": "lemmingz40-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "buinchiez40-Edge_Cuts.gbr",
+      "Path": "lemmingz40-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
