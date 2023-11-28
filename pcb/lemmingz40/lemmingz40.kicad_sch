@@ -3143,36 +3143,6 @@
     )
   )
 
-  (symbol (lib_id "power:VBUS") (at 104.14 21.59 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1dbc1c30-4d9e-485e-a05a-bf32efb2742b)
-    (property "Reference" "#PWR02" (at 104.14 25.4 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "VBUS" (at 104.14 16.51 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 104.14 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 104.14 21.59 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 3af86322-b765-4eae-ada7-31a2a634e2ae))
-    (instances
-      (project ""
-        (path "/4811c7b7-222c-4bb6-b7b5-b7dd4d2eb234"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-      (project "lemmingz40"
-        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:D_Small") (at 190.5 137.16 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e215e06-1879-4c36-8b97-f31e3321f409)
@@ -5733,6 +5703,36 @@
       (project "lemmingz40"
         (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
           (reference "SW2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 104.14 21.59 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e5287888-f310-4221-81bc-038cdcbac81f)
+    (property "Reference" "#PWR04" (at 104.14 25.4 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 104.14 16.51 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 104.14 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 104.14 21.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8e97f2a8-8633-490c-b758-cdf7a6a59dc3))
+    (instances
+      (project ""
+        (path "/4811c7b7-222c-4bb6-b7b5-b7dd4d2eb234"
+          (reference "#PWR04") (unit 1)
+        )
+      )
+      (project "lemmingz40"
+        (path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+          (reference "#PWR02") (unit 1)
         )
       )
     )
