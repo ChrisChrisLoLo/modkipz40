@@ -7738,7 +7738,7 @@
   (gr_text "reset\n" (at 86.666632 82.499967) (layer "B.SilkS") (tstamp 727e145f-6e12-49e0-b31f-23676a42b6d8)
     (effects (font (size 1 1) (thickness 0.1)) (justify left bottom mirror))
   )
-  (gr_text "lemmingz40\nv0.1\nby sporewoh" (at 113.333288 39.999984) (layer "B.SilkS") (tstamp d191de07-44eb-4bc9-98de-cca9872bdbb5)
+  (gr_text "modkipz40\nv0.1\nby sporewoh" (at 113.333288 39.999984) (layer "B.SilkS") (tstamp d191de07-44eb-4bc9-98de-cca9872bdbb5)
     (effects (font (size 1 1) (thickness 0.25) bold) (justify bottom mirror))
   )
 
