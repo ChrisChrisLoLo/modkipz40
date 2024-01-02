@@ -1,5 +1,7 @@
 # modkipz40
 
+![an image of my modkipz40](https://github.com/ChrisChrisLoLo/modkipz40/blob/main/photos/PXL_20231210_225053966.NIGHT.jpg?raw=true)
+
 A pocket keyboard using mouse switches, now with 🤌 *ergonomics* 🤌
 
 # Status
