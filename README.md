@@ -4,7 +4,7 @@ A pocket keyboard using mouse switches, now with 🤌 *ergonomics* 🤌
 
 # Status
 
-v0.1 should now work without issue (tvs diode data lines have been corrected), though hasn't been produced and confirmed.
+v0.1 should now work without issue (tvs diode data lines have been corrected), though hasn't been produced and explicitly confirmed yet.
 
 v0.0 has an error where the usb lines are swapped when connected to the tvs diode. I was able to get around this by cutting out the tvs diode and jumping the usb data line pads. After doing this, the board worked without issue.
 
